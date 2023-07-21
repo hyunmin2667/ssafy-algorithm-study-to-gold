@@ -1,8 +1,8 @@
-<center>
+
 
 # 🖥 SSAFY 10기 알고리즘스터디 골드(갈)반
 
-<table align="center">
+<table >
   <tr>
     <td>진행 기간</td>
     <td>2023년 7월 20일 ~ ing </td>
@@ -32,12 +32,12 @@
 
 ## 💻️ 스터디 멤버
 
-<table>
+<table align="center">
  <tr>
-    <td align="center"><a href="https://github.com/jaewonwi"><img src="https://avatars.githubusercontent.com/jaewonwi" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/hyunmin2667"><img src="https://avatars.githubusercontent.com/hyunmin2667" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/Grat3Su"><img src="https://avatars.githubusercontent.com/Grat3Su" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/crcho5133"><img src="https://avatars.githubusercontent.com/crcho5133" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/jaewonwi"><img src="https://avatars.githubusercontent.com/jaewonwi" width="150px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/hyunmin2667"><img src="https://avatars.githubusercontent.com/hyunmin2667" width="150px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/Grat3Su"><img src="https://avatars.githubusercontent.com/Grat3Su" width="150px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/crcho5133"><img src="https://avatars.githubusercontent.com/crcho5133" width="150px;" alt=""></a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/jaewonwi"><b>jaewonwi</b></a></td>
@@ -58,16 +58,13 @@
 <br/>
 
 ## 🧑🏻‍💻 진행 상황
-<div align="center">
 
 | 진행 상황            | 표기  |
 |:-----------------|:----|
 | 해당 주에 완료 시       | ✅   |
 | 해당 주에 미완료 시      | ❌   |
 
-</div>
 <br>
-<div align="center">
 
 |   번호    |      날짜       | jaewonwi | hyunmin2667 | Grat3Su | crcho5133 | 
 |:-------:|:-------------:|:-------:|:---------:|:--------:|:------------:|
@@ -76,18 +73,17 @@
 
 
 
-</div>
 
 <br/>
 
 ## 🧑🏻‍💻 스터디 계획표
 
 <details>
-<summary style="font-weight:bold;color:darkgray;font-size:18px" align=center>
+<summary style="font-weight:bold;color:darkgray;font-size:18px">
 펼치기/접기
 </summary>
 
-<div markdown="1" align=center>
+<div markdown="1" >
 
 
 |차수 |      날짜       | 분류 | 백준문제 |  진행도
