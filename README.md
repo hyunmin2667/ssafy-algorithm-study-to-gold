@@ -183,9 +183,9 @@
 
 ## 🔍 참여 방법
 
-1. 생성된 원격 저장소에 `Github ID`로 폴더를 생성한다.
+1. 생성된 원격 저장소에 `본인이름`으로 폴더를 생성한다.
 2. 알고리즘 풀이 후 원격 저장소 자신의 폴더에 풀이한 소스 코드를 `push` 한다.
-3. commit할 때 commit 컨벤션을 지킨다.
+3. commit할 때 `commit 컨벤션`을 지킨다.
 4. (option) 다른 사람들의 코드를 보고 자유롭게 코드리뷰를 한다.
 
 <br/>
@@ -213,25 +213,26 @@
 2. > git init
 3. > git remote add origin https://github.com/hyunmin2667/ssafy10-algorithm-study-to-gold.git
 4. > git sparse-checkout init
-5. > git sparse-checkout set hyeonmin << 자기 이름 폴더로 변경하면 됨
+5. > git sparse-checkout set `hyeonmin` << 자기 이름 폴더로 변경하면 됨
 6. > git sparse-checkout list // set 되었는지 확인 한다.
 7. > git pull origin main
 
 8. 로컬에 생성되었는지 확인
 9. .gitignore 생성하기
 10. 제외항목
-    - /.project
-    - /README.md
-    - /.gitignore
-<br><br>
-11. commit/push 진행
+> 1. /public
+> 2. /README.md
+> 3. /.gitignore
 
+11.  commit/push 진행
+> 1. git add `( '.' or add file)`
+> 2. git commit -m "`(commit message)`"
+> 3. git pull origin main
+> 4. git push origin main
 
-<br>
-
-## ⚠️ invaild path error 발생
+## ⚠️ invalid path error 발생
 - pull 중에 error가 발생했다.
-![Alt text](image.png)
+![Alt text](public/image.png)
 
 - 검색해보니 windows 환경 git에서는 ?와 같은 특수문자가 포함되어 있으면 정상적으로 작동이 되지 않는다고 한다.
 
