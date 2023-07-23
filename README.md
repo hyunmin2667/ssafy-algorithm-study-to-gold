@@ -230,7 +230,7 @@
 > 3. git pull origin main
 > 4. git push origin main
 
-## ⚠️ invaild path error 발생
+## ⚠️ invalid path error 발생
 - pull 중에 error가 발생했다.
 ![Alt text](public/image.png)
 
