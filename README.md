@@ -211,7 +211,7 @@
 ## ☝️ 일부 폴더만 pull/push 하는 방법
 1. 로컬에 프로젝트 폴더 하나 생성
 2. > git init
-3. > git remote add origin https://github.com/wo-ody/SSAFY10-Algorithm-Study.git
+3. > git remote add origin https://github.com/hyunmin2667/ssafy10-algorithm-study-to-gold.git
 4. > git sparse-checkout init
 5. > git sparse-checkout set hyeonmin << 자기 이름 폴더로 변경하면 됨
 6. > git sparse-checkout list // set 되었는지 확인 한다.
