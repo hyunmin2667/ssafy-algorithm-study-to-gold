@@ -232,7 +232,7 @@
 
 ## ⚠️ invaild path error 발생
 - pull 중에 error가 발생했다.
-![Alt text](image.png)
+![Alt text](public/image.png)
 
 - 검색해보니 windows 환경 git에서는 ?와 같은 특수문자가 포함되어 있으면 정상적으로 작동이 되지 않는다고 한다.
 
