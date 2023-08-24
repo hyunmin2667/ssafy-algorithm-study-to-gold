@@ -2,18 +2,19 @@
 
 # 🖥 SSAFY 10기 알고리즘스터디 골드(갈)반
 
-<table >
+
+<table>
   <tr>
     <td>진행 기간</td>
     <td>2023년 7월 20일 ~ ing </td>
   </tr>
   <tr>
     <td>스터디 장소</td>
-    <td>Online</td>
+    <td>🔊 Discord</td>
   </tr>
   <tr>
     <td>정기 스터디 시간</td>
-    <td>미정 &rarr; <a href="https://github.com/CodeSquad-BE-Study/Algorithm-Study/wiki/%EB%AA%A8%EC%9E%84-%EC%9D%BC%EC%A0%95"><b>일정 확인</b></a></td>
+    <td>매주 수요일 &rarr; <a href="/study_discord/"><b>일정 확인</b></a></td>
   </tr>
   <tr>
     <td>플랫폼</td>
@@ -28,7 +29,7 @@
   </tr>
 </table>
 
-<br/>
+<br>
 
 ## 💻️ 스터디 멤버
 
@@ -55,12 +56,13 @@
 </table>
 
 
-<br/>
+<br>
+
 
 ## 🧑🏻‍💻 진행 상황
 
-| 진행 상황            | 표기  |
-|:-----------------|:----|
+| <center>진행 상황  </center>          | <center>표기</cetner>  |
+|:-----------------|:----:|
 | 해당 주에 완료 시       | ✅   |
 | 해당 주에 미완료 시      | ❌   |
 
@@ -72,9 +74,7 @@
 | 2 | 7/21 |        |          |         |            |
 
 
-
-
-<br/>
+<br>
 
 ## 🧑🏻‍💻 스터디 계획표
 
@@ -151,11 +151,15 @@
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f1aa97d91f32ef55b321adaecd9c504289cd09b1
 </div>
 </details>
 
 
-<br/>
+<br>
 
 ## 📌 스터디 규칙
 
@@ -174,7 +178,7 @@
 3. commit할 때 `commit 컨벤션`을 지킨다.
 4. (option) 다른 사람들의 코드를 보고 자유롭게 코드리뷰를 한다.
 
-<br/>
+<br>
 
 ## 📁 Repository 폴더 구조
 
@@ -182,7 +186,7 @@
 
   #### 💡 예시 : `jaewonwi/0720/BOJ_1000_A+B.java`
 
-<br/>
+<br>
 
 ## 📝 commit 컨벤션
 
@@ -190,9 +194,8 @@
 
   #### 💡 예시 : `BOJ_1000_A+B`
 
+
 <br>
-
-
 
 ## ☝️ 일부 폴더만 pull/push 하는 방법
 1. 로컬에 프로젝트 폴더 하나 생성
@@ -217,7 +220,9 @@
 > 3. git pull origin main
 > 4. git push origin main
 
-## ⚠️ invalid path error 발생
+<br>
+
+## ⚠️ invalid path error 발생했을 때 해결방법
 - pull 중에 error가 발생했다.
 ![Alt text](public/image.png)
 
