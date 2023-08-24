@@ -33,7 +33,7 @@
 || 2023-08-16 | [BOJ_20187_종이접기](https://boj.kr/20187) |  <details><summary>보기</summary><div markdown="1">`#구현`</div></details>   | 
 || 2023-08-23 | [BOJ_2667_단지번호붙이기](https://boj.kr/2667) |  <details><summary>보기</summary><div markdown="1">`#그래프 #BFS/DFS`</div></details>   |
 |👊🏼| 2023-08-30 | [BOJ_11559_PuyoPuyo](https://boj.kr/11559) |  <details><summary>보기</summary><div markdown="1">`#구현 #그래프 #시뮬레이션 #BFS`</div></details>  |
-|🚩| 2023-08-30 | [BOJ_16236_아기상어](https://boj.kr/16236) | <details><summary>보기</summary><div markdown="1">`#구현 #그래프 #시뮬레이션 #BFS`</div></details>  |
+|👊🏼| 2023-08-30 | [BOJ_16236_아기상어](https://boj.kr/16236) | <details><summary>보기</summary><div markdown="1">`#구현 #그래프 #시뮬레이션 #BFS`</div></details>  |
 
 </div>
 
