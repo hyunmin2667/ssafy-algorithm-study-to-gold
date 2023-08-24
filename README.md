@@ -151,20 +151,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 </details>
 
@@ -212,19 +198,20 @@
 1. 로컬에 프로젝트 폴더 하나 생성
 2. > git init
 3. > git remote add origin https://github.com/hyunmin2667/ssafy10-algorithm-study-to-gold.git
-4. > git sparse-checkout init
-5. > git sparse-checkout set `hyeonmin` << 자기 이름 폴더로 변경하면 됨
-6. > git sparse-checkout list // set 되었는지 확인 한다.
-7. > git pull origin main
+4. > `(일부폴더만 pull/push할 때)` git sparse-checkout init
+5. > `(일부폴더만 pull/push할 때)` git sparse-checkout set `hyeonmin` << 자기 이름 폴더로 변경하면 됨
+6. > `(일부폴더만 pull/push할 때:폴더 2개)` git sparse-checkout set `hyeonmin study_discord` 
+7. > `(일부폴더만 pull/push할 때)` git sparse-checkout list << set 목록을 확인할 수 있는 명령어
+8. > git pull origin main
 
-8. 로컬에 생성되었는지 확인
-9. .gitignore 생성하기
-10. 제외항목
+9. 로컬에 생성되었는지 확인
+10. .gitignore 생성하기
+11. 제외항목
 > 1. /public
 > 2. /README.md
 > 3. /.gitignore
 
-11.  commit/push 진행
+1.   commit/push 진행
 > 1. git add `( '.' or add file)`
 > 2. git commit -m "`(commit message)`"
 > 3. git pull origin main
