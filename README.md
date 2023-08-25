@@ -1,7 +1,6 @@
-
-
 # 🖥 SSAFY 10기 알고리즘스터디 골드(갈)반
 
+<div align="center">
 
 <table>
   <tr>
@@ -18,7 +17,7 @@
   </tr>
   <tr>
     <td>플랫폼</td>
-    <td>백준(📘알고리즘 코딩 테스트)</td>
+    <td>Baekjoon (📘알고리즘 코딩 테스트)</td>
   </tr>
   <tr>
     <td>언어</td>
@@ -28,6 +27,8 @@
     </td>
   </tr>
 </table>
+
+</div>
 
 <br>
 
@@ -61,12 +62,13 @@
 
 ## 🧑🏻‍💻 진행 상황
 
+<div align="center">
+
+
 | <center>진행 상황  </center>          | <center>표기</cetner>  |
 |:-----------------|:----:|
 | 해당 주에 완료 시       | ✅   |
 | 해당 주에 미완료 시      | ❌   |
-
-<br>
 
 |   번호    |      날짜       | jaewonwi | hyunmin2667 | Grat3Su | crcho5133 | 
 |:-------:|:-------------:|:-------:|:---------:|:--------:|:------------:|
@@ -76,12 +78,17 @@
 
 <br>
 
+</div>
+
 ## 🧑🏻‍💻 스터디 계획표
+
+<div align="center">
 
 <details>
 <summary style="font-weight:bold;color:darkgray;font-size:18px">
 펼치기/접기
 </summary>
+
 
 <div markdown="1" >
 
@@ -151,13 +158,10 @@
 
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> f1aa97d91f32ef55b321adaecd9c504289cd09b1
 </div>
 </details>
 
+</div>
 
 <br>
 
