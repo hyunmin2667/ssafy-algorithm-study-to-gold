@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class BOJ_16236_아기상어 {
+public class BOJ_16236_아기상어_조창래 {
 	static int N;
 	static int[][] grid; // bfs를 실행하기 위해 필요한 grid의 복제
 	static int[][] gridCopy; // 변하는 grid
