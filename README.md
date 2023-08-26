@@ -1,7 +1,6 @@
-
-
 # 🖥 SSAFY 10기 알고리즘스터디 골드(갈)반
 
+<div align="center">
 
 <table>
   <tr>
@@ -18,7 +17,7 @@
   </tr>
   <tr>
     <td>플랫폼</td>
-    <td>백준(📘알고리즘 코딩 테스트)</td>
+    <td>Baekjoon (📘알고리즘 코딩 테스트)</td>
   </tr>
   <tr>
     <td>언어</td>
@@ -28,6 +27,8 @@
     </td>
   </tr>
 </table>
+
+</div>
 
 <br>
 
@@ -61,12 +62,13 @@
 
 ## 🧑🏻‍💻 진행 상황
 
+<div align="center">
+
+
 | <center>진행 상황  </center>          | <center>표기</cetner>  |
 |:-----------------|:----:|
 | 해당 주에 완료 시       | ✅   |
 | 해당 주에 미완료 시      | ❌   |
-
-<br>
 
 |   번호    |      날짜       | jaewonwi | hyunmin2667 | Grat3Su | crcho5133 | 
 |:-------:|:-------------:|:-------:|:---------:|:--------:|:------------:|
@@ -76,12 +78,17 @@
 
 <br>
 
+</div>
+
 ## 🧑🏻‍💻 스터디 계획표
+
+<div align="center">
 
 <details>
 <summary style="font-weight:bold;color:darkgray;font-size:18px">
 펼치기/접기
 </summary>
+
 
 <div markdown="1" >
 
@@ -151,10 +158,10 @@
 
 
 
-
 </div>
 </details>
 
+</div>
 
 <br>
 
@@ -198,19 +205,20 @@
 1. 로컬에 프로젝트 폴더 하나 생성
 2. > git init
 3. > git remote add origin https://github.com/hyunmin2667/ssafy10-algorithm-study-to-gold.git
-4. > git sparse-checkout init
-5. > git sparse-checkout set `hyeonmin` << 자기 이름 폴더로 변경하면 됨
-6. > git sparse-checkout list // set 되었는지 확인 한다.
-7. > git pull origin main
+4. > `(일부폴더만 pull/push할 때)` git sparse-checkout init
+5. > `(일부폴더만 pull/push할 때)` git sparse-checkout set `hyeonmin` << 자기 이름 폴더로 변경하면 됨
+6. > `(일부폴더만 pull/push할 때:폴더 2개)` git sparse-checkout set `hyeonmin study_discord` 
+7. > `(일부폴더만 pull/push할 때)` git sparse-checkout list << set 목록을 확인할 수 있는 명령어
+8. > git pull origin main
 
-8. 로컬에 생성되었는지 확인
-9. .gitignore 생성하기
-10. 제외항목
+9. 로컬에 생성되었는지 확인
+10. .gitignore 생성하기
+11. 제외항목
 > 1. /public
 > 2. /README.md
 > 3. /.gitignore
 
-11.  commit/push 진행
+1.   commit/push 진행
 > 1. git add `( '.' or add file)`
 > 2. git commit -m "`(commit message)`"
 > 3. git pull origin main
