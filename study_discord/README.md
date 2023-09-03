@@ -32,7 +32,7 @@
 ||   날짜   |     <center>문제</center>     |   <center>태그</center>   |
 |:-|:-------:|:-------------|:-------|
 |👊🏼| 2023-09-06 | [BOJ_18352_특정거리의도시찾기](https://www.acmicpc.net/problem/18352) | <details><summary>보기</summary><div markdown="1">`#그래프 #Dijkstra #BFS`</div></details>  |
-|👊🏼| 2023-09-06 | [미정](https://www.acmicpc.net/problem/) | <details><summary>보기</summary><div markdown="1">`#`</div></details>  |
+|👊🏼| 2023-09-06 | [BOJ_1965_상자넣기](https://www.acmicpc.net/problem/1965) | <details><summary>보기</summary><div markdown="1">`#`</div></details>  |
 || 2023-08-30 | [BOJ_16236_아기상어](https://www.acmicpc.net/problem/16236) | <details><summary>보기</summary><div markdown="1">`#구현 #그래프 #시뮬레이션 #BFS`</div></details>  |
 || 2023-08-30 | [BOJ_11559_PuyoPuyo](https://www.acmicpc.net/problem/11559) |  <details><summary>보기</summary><div markdown="1">`#구현 #그래프 #시뮬레이션 #BFS`</div></details>  |
 || 2023-08-23 | [BOJ_2667_단지번호붙이기](https://www.acmicpc.net/problem/2667) |  <details><summary>보기</summary><div markdown="1">`#그래프 #BFS/DFS`</div></details>   |
