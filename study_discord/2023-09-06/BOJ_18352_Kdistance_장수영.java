@@ -51,7 +51,7 @@ public class BOJ_18352_Kdistance {
 	}
 	static PriorityQueue<Integer>pq = new PriorityQueue<>();
 	static void bfs(int v) {
-		PriorityQueue<Integer> q = new PriorityQueue<>();
+		Queue<Integer> q = new ArrayDeque<>();
 		q.add(v);
 		
 		while(!q.isEmpty()) {
@@ -70,7 +70,7 @@ public class BOJ_18352_Kdistance {
 				//if(visited[dis])continue;
 				if(minDis[dis]!=Integer.MAX_VALUE) continue;//방문했다
 				
-				minDis[dis] = Math.min(minDis[x]+1,minDis[dis]);//다음 v = 현재 거리+1
+				minDis[dis] = Math.min(minDis[x]+1,minDis[dis]);//다음 v = 현재 거리+1 or 다음거리
 	            q.add(dis);
 			}
 		}
