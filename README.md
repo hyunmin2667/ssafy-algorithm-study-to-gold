@@ -1,4 +1,4 @@
-# 🖥 SSAFY 10기 알고리즘스터디 골드(갈)반
+# ⌨️ SSAFY 10기 알고리즘스터디 <가 요 플래>
 
 <div align="center">
 
@@ -17,12 +17,13 @@
   </tr>
   <tr>
     <td>플랫폼</td>
-    <td>Baekjoon (📘알고리즘 코딩 테스트)</td>
+    <td>Baekjoon</td>
   </tr>
   <tr>
     <td>언어</td>
     <td>
-      <img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"> 
+      JAVA
+      <!-- <img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white">  -->
       <!-- <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> -->
     </td>
   </tr>
@@ -47,20 +48,20 @@
     <td align="center"><a href="https://github.com/Grat3Su"><b>Grat3Su</b></a></td>
     <td align="center"><a href="https://github.com/crcho5133"><b>crcho5133</b></a></td>
   </tr>
-  <tr> 
+  <!-- <tr> 
     <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"></td>
-    <!-- <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"><br/><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td> -->
-  </tr> 
+    <td align="center"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"><br/><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
+  </tr>  -->
 </table>
 
 
 <br>
 
 
-## 🧑🏻‍💻 진행 상황
+<!-- ## 🧑🏻‍💻 진행 상황
 
 <div align="center">
 
@@ -78,9 +79,9 @@
 
 <br>
 
-</div>
+</div> -->
 
-## 🧑🏻‍💻 스터디 계획표
+<!-- ## 🧑🏻‍💻 스터디 계획표
 
 <div align="center">
 
@@ -163,14 +164,62 @@
 
 </div>
 
-<br>
+<br> -->
 
 ## 📌 스터디 규칙
 
-### 운영 방식
 
-- 📘Do it! 알고리즘 코딩 테스트 (백준 100문제)
-- 30일 완성 커리큘럼을 60일로 진행(예정)
+
+
+
+
+### 1. 평일 1문제
+- 주말은 쉽니다.
+- **백준 실버 1문제** 이상 깃허브에 업로드
+- **새벽 4시전**까지 제출
+- 벌금 10회마다 **벌금 증가(1000원씩)**
+
+
+
+
+<div align="center">
+
+<details>
+<summary style="font-weight:bold;color:darkgray;font-size:18px">
+진행상황 (펼치기/접기)
+</summary>
+<div markdown="1" >
+
+|표기법         |        |  이름     |  벌금횟수  | 벌금합계
+|:------------:|:------:|:---------:|:---------:|:---------:|
+| 제출 ✅      |        |jaewonwi   |   0      |     0원    |
+| 미제출 ❌    |        |hyunmin2667|   0      |     0원    |
+| 벌금납부 ⭕  |        |Grat3Su    |   0      |     0원    |
+| 쉬는날 ✈️    |        |crcho5133  |   0      |     0원    |
+
+
+
+|   날짜   | jaewonwi | hyunmin2667 | Grat3Su | crcho5133 |
+|:-------------:|:-------:|:---------:|:--------:|:------------:|
+| 10/19 |        |          |         |            |
+| 10/18 |    ✅    |     ✅     |    ✅     |      ✅      |
+
+</div>
+</details>
+
+
+</div>
+
+
+
+
+
+
+### 2. 매주 수요일 자체 코테
+- **백준 그룹에서 진행**
+
+<!-- - 📘Do it! 알고리즘 코딩 테스트 (백준 100문제)
+- 30일 완성 커리큘럼을 60일로 진행(예정) -->
 
 
 <br>
@@ -186,9 +235,9 @@
 
 ## 📁 Repository 폴더 구조
 
-- Github ID/날짜/소스코드(플랫폼, 문제 번호와 제목 명시)
+- Github ID/날짜(월)/날짜(일)/소스코드(플랫폼, 문제 번호와 제목 명시)
 
-  #### 💡 예시 : `jaewonwi/0720/BOJ_1000_A+B.java`
+  #### 💡 예시 : `jaewonwi/2023-07/0720/BOJ_1000_A+B.java`
 
 <br>
 
@@ -218,7 +267,7 @@
 > 2. /README.md
 > 3. /.gitignore
 
-1.   commit/push 진행
+12. commit/push 진행
 > 1. git add `( '.' or add file)`
 > 2. git commit -m "`(commit message)`"
 > 3. git pull origin main
