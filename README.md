@@ -17,7 +17,7 @@
   </tr>
   <tr>
     <td>플랫폼</td>
-    <td>[Baekjoon](https://www.acmicpc.net/)</td>
+    <td>![Baekjoon](https://www.acmicpc.net/)</td>
   </tr>
   <tr>
     <td>언어</td>
