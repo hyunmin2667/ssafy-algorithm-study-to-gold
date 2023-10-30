@@ -1,0 +1,54 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+	static int N;
+	static int[] visited;
+	static String ans;
+	static ArrayList<ArrayList<Integer>> list = new ArrayList<ArrayList<Integer>>();
+
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+
+		N = Integer.parseInt(st.nextToken());
+		visited = new int[N + 1];
+
+		for (int i = 0; i <= N; ++i) {
+			list.add(new ArrayList<Integer>());
+		}
+
+		for (int i = 1; i < N; i++) {
+			int M = Integer.parseInt(br.readLine());
+
+			st = new StringTokenizer(br.readLine());
+			for (int j = 0; j < M; j++) {
+				list.get(i).add(Integer.parseInt(st.nextToken()));
+			}
+		}
+		ans = "NO CYCLE";
+		
+		dfs(1);
+		System.out.println(ans);
+	}
+
+	private static void dfs(int idx) {
+		if (visited[idx] == -1) {
+			ans = "CYCLE";
+			return;
+		}
+
+		// 방문 체크
+		visited[idx] = -1;
+
+		// from에서 갈 수 있는 정점 모두 확인
+		for (int v : list.get(idx)) {
+			if (visited[v] != 1) {
+				dfs(v);
+			}
+		}
+
+		// 탐색 완료
+		visited[idx] = 1;
+	}
+}
