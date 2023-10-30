@@ -64,28 +64,13 @@
 ## 📌 스터디 규칙
 
 
-
-
-
-
 ### 1. 평일 1문제
 - 주말은 쉽니다.
 - **백준 실버 1문제** 이상 깃허브에 업로드
 - **새벽 4시전**까지 제출
 - 벌금 10회마다 **벌금 증가(1000원씩)**
 
-
-
-
 <div align="center">
-
-<details>
-<summary style="font-weight:bold;color:darkgray;font-size:18px">
-진행상황 (펼치기/접기)
-</summary>
-<div markdown="1" >
-
-<span>
 
 |표기법         |        |  이름     |  벌금횟수  | 벌금합계
 |:------------:|:------:|:---------:|:---------:|:---------:|
@@ -94,9 +79,12 @@
 | 벌금납부 ⭕  |        |Grat3Su    |   0      |     0원    |
 | 쉬는날 ✈️    |        |crcho5133  |   0      |     0원    |
 
-</span>
-<span>
-
+<details>
+  
+<summary style="font-weight:bold;color:darkgray;font-size:18px">진행상황 (펼치기/접기)</summary>
+  
+<div markdown="1" >
+  
 |   날짜   | jaewonwi | hyunmin2667 | Grat3Su | crcho5133 |
 |:-------------:|:-------:|:---------:|:--------:|:------------:|
 | 10/20 |        |          |         |            |
@@ -104,14 +92,12 @@
 | 10/18 |    ✅    |     ✅     |    ✅     |      ✅      |
 
 </div>
+
 </details>
-</span>
+
+
 
 </div>
-
-
-
-
 
 
 ### 2. 매주 수요일 자체 코테
