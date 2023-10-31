@@ -97,7 +97,7 @@
 | ✅   | ❌     | ⭕       | ✈️     | 💻     | ✨  |
 
 <details>
-<summary style="font-weight:bold;color:darkgray;font-size:18px">10월 진행상황 (펼치기/접기)</summary>
+<summary style="font-weight:bold;color:darkgray;font-size:18px">11월 진행상황 (펼치기/접기)</summary>
 <div markdown="1" >
 
 
