@@ -1,0 +1,53 @@
+import java.io.*;
+import java.util.*;
+
+/*
+ * 9 3
+1 2 3 4 5 6 7 8 9
+
+-> 17
+
+ */
+public class Main {
+	static int N, M, ans;
+	static int[] A;
+
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		N = Integer.parseInt(st.nextToken());
+		M = Integer.parseInt(st.nextToken());
+
+		A = new int[N];
+		st = new StringTokenizer(br.readLine());
+		int s = 0, e = 0;
+		for (int i = 0; i < N; i++) {
+			A[i] = Integer.parseInt(st.nextToken());
+			if (s < A[i])
+				s = A[i];
+			e = e + A[i];
+		}
+
+		while (s <= e) {
+			int mid = (s + e) / 2;
+			int sum = 0;
+			int cnt = 0;
+			for (int i = 0; i < N; i++) {
+				if (sum + A[i] > mid) {
+					cnt++;
+					sum = 0;
+				}
+				sum = sum + A[i];
+			}
+			if (sum != 0)//블루레이가 더 필요
+				cnt++;
+			if (cnt > M)
+				s = mid + 1;
+			else
+				e = mid - 1;
+		}
+		ans = s;
+		System.out.println(ans);
+	}
+
+}
