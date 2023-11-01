@@ -101,7 +101,7 @@
 <div markdown="1" >
 
 
-|  날짜  |  hyunmin2667  |  Grat3Su  |  crcho5133  |  jaewonwi   |  
+|  날짜  |  jaewonwi   |  hyunmin2667  |  Grat3Su  |  crcho5133  |  
 |:-----:|:--------:|:-----------:|:-------:|:---------:|
 |  11/2 (목)  |    |    |    |    |  
 |  11/1 (수)  |  ✅  |  ✅  |  ✅  |  ✅  |  
