@@ -1,0 +1,59 @@
+
+import java.io.*;
+import Java.util.*;
+
+public class Main {
+/* 데이터셋
+8
+11110000
+11110000
+00011100
+00011100
+11110000
+11110000
+11110011
+11110011
+ */
+	static int[][] map;
+	static StringBuilder sb = new StringBuilder();
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N= Integer.parseInt(br.readLine());
+		map = new int[N][N];
+		
+		for(int i = 0; i<N; i++) {
+			//StringTokenizer st = new StringTokenizer(br.readLine());
+			String s = br.readLine();
+			for(int j = 0; j<N; j++) {
+				map[i][j] = s.charAt(j)-'0';
+			}
+		}
+		quadTree(0,0,N);
+		System.out.println(sb);
+	}
+	
+	static void quadTree(int sr, int sc, int size) {
+		int sum = 0;
+		for (int r = sr; r < sr + size; r++) {
+			for (int c = sc; c < sc + size; c++) {
+				sum += map[r][c];
+			}
+		}
+		
+		if(sum==0) {//0
+			sb.append(0);
+		}
+		else if(sum == size*size) {
+			sb.append(1);
+		}
+		else {
+			int half = size/2;
+			sb.append("(");
+			quadTree(sr,sc,half);
+			quadTree(sr,sc+half,half);
+			quadTree(sr+half,sc,half);
+			quadTree(sr+half,sc+half,half);
+			sb.append(")");
+		}
+	}
+}
